@@ -33,28 +33,12 @@ for (int o = 0; o<n; o++)
 
     for (long x=k-2; x>=0; x--)
     {
-        if (looser)
-        {
-            looser = !looser;
-        }
 
-        else
-           {
             looser = !looser;
-        }
 
         if (piles[x] > 1 && !looser)
         {
-    swaped = true;
-                if (looser)
-            {
                 looser = !looser;
-            }
-
-            else
-               {
-                looser = !looser;
-            }
         }
 
     }
